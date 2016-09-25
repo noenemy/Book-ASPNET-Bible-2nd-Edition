@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:mstns="http://tempuri.org/dsProducts.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="http://tempuri.org/dsProducts.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/dsProducts.xsd" id="dsProducts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" name="dsProducts">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Products">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="ProductID" type="xs:int" />
+              <xs:element name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="SupplierID" type="xs:int" />
+              <xs:element minOccurs="0" name="CategoryID" type="xs:int" />
+              <xs:element minOccurs="0" name="QuantityPerUnit" type="xs:string" />
+              <xs:element minOccurs="0" name="UnitPrice" type="xs:decimal" />
+              <xs:element minOccurs="0" name="UnitsInStock" type="xs:short" />
+              <xs:element minOccurs="0" name="UnitsOnOrder" type="xs:short" />
+              <xs:element minOccurs="0" name="ReorderLevel" type="xs:short" />
+              <xs:element name="Discontinued" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="dsProductsKey1">
+      <xs:selector xpath=".//mstns:Products" />
+      <xs:field xpath="mstns:ProductID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "control", "http://localhost/vb12/control.vbproj", "{A3C10267-4055-4394-8117-A0D6F37354B3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CustomControl", "CustomControl\CustomControl.vbproj", "{64C4EB6C-9776-4ED8-9977-1F6B8BA0C3AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A3C10267-4055-4394-8117-A0D6F37354B3}.Debug.ActiveCfg = Debug|.NET
+		{A3C10267-4055-4394-8117-A0D6F37354B3}.Debug.Build.0 = Debug|.NET
+		{A3C10267-4055-4394-8117-A0D6F37354B3}.Release.ActiveCfg = Release|.NET
+		{A3C10267-4055-4394-8117-A0D6F37354B3}.Release.Build.0 = Release|.NET
+		{64C4EB6C-9776-4ED8-9977-1F6B8BA0C3AC}.Debug.ActiveCfg = Debug|.NET
+		{64C4EB6C-9776-4ED8-9977-1F6B8BA0C3AC}.Debug.Build.0 = Debug|.NET
+		{64C4EB6C-9776-4ED8-9977-1F6B8BA0C3AC}.Release.ActiveCfg = Release|.NET
+		{64C4EB6C-9776-4ED8-9977-1F6B8BA0C3AC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

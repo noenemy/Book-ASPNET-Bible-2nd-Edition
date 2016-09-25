@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "statemanage_cs", "http://localhost/cs16/statemanage_cs.csproj", "{0314AA1A-242F-44B1-921C-ACA0B7CC8725}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0314AA1A-242F-44B1-921C-ACA0B7CC8725}.Debug.ActiveCfg = Debug|.NET
+		{0314AA1A-242F-44B1-921C-ACA0B7CC8725}.Debug.Build.0 = Debug|.NET
+		{0314AA1A-242F-44B1-921C-ACA0B7CC8725}.Release.ActiveCfg = Release|.NET
+		{0314AA1A-242F-44B1-921C-ACA0B7CC8725}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

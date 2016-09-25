@@ -1,0 +1,89 @@
+<!--
+   ASP.NET Programming Bible Sample Source Setup File  	
+   Copyright 2002 noenemy.
+   Published by Youngjin.com
+-->
+<html>
+<head><title>ASP.NET Programming Bible Setup</title>
+<HTA:APPLICATION ID="oMe"
+	APPLICATIONNAME="ASP.NET Programming Bible Setup"
+	MAXIMIZEBUTTON="no"
+	SINGLEINSTANCE="yes">
+<script language="vbscript">
+Option Explicit
+Private oFS		'FileSystemObject
+Private oShell		'command shell object
+Private sFullPath	'install path
+
+Public Function InstallDB(ByVal sLoginID, ByVal sPassword)
+	Dim sCmd
+	sCmd = BuildCmdLine(oFS.BuildPath(sFullPath, "_InstallDB.bat"), _
+			Array(sFullPath, sLoginID, sPassword))
+	If oShell.Run(sCmd, , True) = 0 Then
+		MsgBox "ASP.NET Bible의 데이터베이스 설치작업이 완료되었습니다.", 64
+		InstallDB = True
+	Else
+		MsgBox "ASP.NET Bible의 데이터베이스 설치작업 중 오류가 발생하였습니다.", 16
+		InstallDB = False
+	End If
+End Function
+
+Public Function InstallWeb()
+	Dim sCmd
+	sCmd = BuildCmdLine(oFS.BuildPath(sFullPath, "_InstallWeb.bat"), _
+			Array(sFullPath))
+	If oShell.Run(sCmd, , True) = 0 Then
+		MsgBox "ASP.NET Bible의 웹 설치작업이 완료되었습니다", 64
+		InstallWeb = True
+	Else
+		MsgBox "ASP.NET Bible의 웹 설치작업중 오류가 발생하였습니다.", 16
+		InstallWeb = False
+	End If
+End Function
+
+'초기화
+Private Sub window_onload()
+	window.resizeTo 540, 454
+
+	Set oFS = CreateObject("Scripting.FileSystemObject")
+	Set oShell = CreateObject("WScript.Shell")
+	
+	'oMe.CommandLine => 해당 스크립트의 fullPath + file명
+	'msgbox oMe.CommandLine
+
+	'sFullPath => 해당 파일이 담겨져 있는 폴더명
+	sFullPath = oFS.GetParentFolderName(oMe.commandLine)
+	
+	'FileSystemObject 버그를 피하기 위해..
+	If Left(sFullPath, 1) = """" Then sFullPath = Mid(sFullPath, 2)
+End Sub
+
+'builds a command line from an array of parameter strings
+' wraps quotes around any parameters (or the target) that have spaces
+
+Private Function BuildCmdLine(ByVal sTarget, ByVal aryParams)
+	Dim sCmd, sParam
+
+	If InStr(sTarget, " ") > 0 Then
+		sCmd = """" & sTarget & """"
+	Else
+		sCmd = sTarget
+	End If
+
+	For Each sParam In aryParams
+		If InStr(sParam, " ") > 0 Then
+			sCmd = sCmd & " """ & sParam & """"
+		Else
+			sCmd = sCmd & " " & sParam
+		End If
+	Next
+
+	BuildCmdLine = sCmd
+End Function
+</script>
+</head>
+<body style="margin:0" scroll="no"><center>
+<iframe application="yes" src="main.htm" frameborder="no" style="height:expression(document.body.clientHeight);width:expression(document.body.clientWidth)"></iframe>
+</center>
+</body>
+</html>

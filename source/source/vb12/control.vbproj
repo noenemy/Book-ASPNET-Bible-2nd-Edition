@@ -1,0 +1,368 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.0.9372"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{A3C10267-4055-4394-8117-A0D6F37354B3}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "control"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "control"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                />
+                <Reference
+                    Name = "System.Management"
+                    AssemblyName = "System.Management"
+                />
+                <Reference
+                    Name = "CustomControl"
+                    Project = "{64C4EB6C-9776-4ED8-9977-1F6B8BA0C3AC}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "control.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ds.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds.vb"
+                />
+                <File
+                    RelPath = "ds.vb"
+                    DependentUpon = "ds.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dsCategories.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsCategories.vb"
+                />
+                <File
+                    RelPath = "dsCategories.vb"
+                    DependentUpon = "dsCategories.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "hellopagelet.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "hellopagelet.aspx.vb"
+                    DependentUpon = "hellopagelet.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "hellopagelet.aspx.resx"
+                    DependentUpon = "hellopagelet.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "menu.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "menu.ascx.vb"
+                    DependentUpon = "menu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "menu.ascx.resx"
+                    DependentUpon = "menu.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "pagelet1.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "pagelet1.ascx.vb"
+                    DependentUpon = "pagelet1.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pagelet1.ascx.resx"
+                    DependentUpon = "pagelet1.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "pagelet2.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "pagelet2.ascx.vb"
+                    DependentUpon = "pagelet2.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pagelet2.ascx.resx"
+                    DependentUpon = "pagelet2.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "pagelet3.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "pagelet3.ascx.vb"
+                    DependentUpon = "pagelet3.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pagelet3.ascx.resx"
+                    DependentUpon = "pagelet3.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_BulletList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_BulletList.aspx.vb"
+                    DependentUpon = "use_BulletList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "use_BulletList.aspx.resx"
+                    DependentUpon = "use_BulletList.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "use_event.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_event.aspx.vb"
+                    DependentUpon = "use_event.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "use_event.aspx.resx"
+                    DependentUpon = "use_event.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "use_FlatTextBox.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_FlatTextBox.aspx.vb"
+                    DependentUpon = "use_FlatTextBox.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "use_FlatTextBox.aspx.resx"
+                    DependentUpon = "use_FlatTextBox.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "use_hellocustom.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_hellocustom.aspx.vb"
+                    DependentUpon = "use_hellocustom.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "use_hellocustom.aspx.resx"
+                    DependentUpon = "use_hellocustom.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "use_MyTextBox.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_MyTextBox.aspx.vb"
+                    DependentUpon = "use_MyTextBox.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "use_MyTextBox.aspx.resx"
+                    DependentUpon = "use_MyTextBox.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "use_TitleTextBox.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "use_TitleTextBox.aspx.vb"
+                    DependentUpon = "use_TitleTextBox.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "use_TitleTextBox.aspx.resx"
+                    DependentUpon = "use_TitleTextBox.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "usedb.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "usedb.aspx.vb"
+                    DependentUpon = "usedb.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "usedb.aspx.resx"
+                    DependentUpon = "usedb.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "useproperty.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "useproperty.aspx.vb"
+                    DependentUpon = "useproperty.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "useproperty.aspx.resx"
+                    DependentUpon = "useproperty.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

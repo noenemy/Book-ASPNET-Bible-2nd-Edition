@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "list_control1", "http://localhost/vb08/list_control1.vbproj", "{01767CD4-9493-4FBF-8E50-8AB386C397C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{01767CD4-9493-4FBF-8E50-8AB386C397C1}.Debug.ActiveCfg = Debug|.NET
+		{01767CD4-9493-4FBF-8E50-8AB386C397C1}.Debug.Build.0 = Debug|.NET
+		{01767CD4-9493-4FBF-8E50-8AB386C397C1}.Release.ActiveCfg = Release|.NET
+		{01767CD4-9493-4FBF-8E50-8AB386C397C1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

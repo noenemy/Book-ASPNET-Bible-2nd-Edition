@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "board_cs", "http://localhost/cs26/board_cs.csproj", "{E49B9157-097C-44C1-80FC-94FE01BD0354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizBoard", "BizBoard\BizBoard.csproj", "{D427BEFD-13B4-46D4-895A-5C7897BCF2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E49B9157-097C-44C1-80FC-94FE01BD0354}.Debug.ActiveCfg = Debug|.NET
+		{E49B9157-097C-44C1-80FC-94FE01BD0354}.Debug.Build.0 = Debug|.NET
+		{E49B9157-097C-44C1-80FC-94FE01BD0354}.Release.ActiveCfg = Release|.NET
+		{E49B9157-097C-44C1-80FC-94FE01BD0354}.Release.Build.0 = Release|.NET
+		{D427BEFD-13B4-46D4-895A-5C7897BCF2DD}.Debug.ActiveCfg = Debug|.NET
+		{D427BEFD-13B4-46D4-895A-5C7897BCF2DD}.Debug.Build.0 = Debug|.NET
+		{D427BEFD-13B4-46D4-895A-5C7897BCF2DD}.Release.ActiveCfg = Release|.NET
+		{D427BEFD-13B4-46D4-895A-5C7897BCF2DD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

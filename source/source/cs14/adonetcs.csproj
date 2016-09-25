@@ -1,0 +1,383 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{065270BE-2721-4541-B7FF-943E5800DEE8}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "adonetcs"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "adonetcs"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "adonetcs.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cmd_delete.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cmd_delete.aspx.cs"
+                    DependentUpon = "cmd_delete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cmd_delete.aspx.resx"
+                    DependentUpon = "cmd_delete.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cmd_insert.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cmd_insert.aspx.cs"
+                    DependentUpon = "cmd_insert.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cmd_insert.aspx.resx"
+                    DependentUpon = "cmd_insert.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cmd_update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cmd_update.aspx.cs"
+                    DependentUpon = "cmd_update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cmd_update.aspx.resx"
+                    DependentUpon = "cmd_update.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dr_select1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "dr_select1.aspx.cs"
+                    DependentUpon = "dr_select1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dr_select1.aspx.resx"
+                    DependentUpon = "dr_select1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dr_select2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "dr_select2.aspx.cs"
+                    DependentUpon = "dr_select2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dr_select2.aspx.resx"
+                    DependentUpon = "dr_select2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dr_select3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "dr_select3.aspx.cs"
+                    DependentUpon = "dr_select3.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dr_select3.aspx.resx"
+                    DependentUpon = "dr_select3.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_delete.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_delete.aspx.cs"
+                    DependentUpon = "ds_delete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_delete.aspx.resx"
+                    DependentUpon = "ds_delete.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_insert.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_insert.aspx.cs"
+                    DependentUpon = "ds_insert.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_insert.aspx.resx"
+                    DependentUpon = "ds_insert.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_select_multi.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_select_multi.aspx.cs"
+                    DependentUpon = "ds_select_multi.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_select_multi.aspx.resx"
+                    DependentUpon = "ds_select_multi.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_select1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_select1.aspx.cs"
+                    DependentUpon = "ds_select1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_select1.aspx.resx"
+                    DependentUpon = "ds_select1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_select2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_select2.aspx.cs"
+                    DependentUpon = "ds_select2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_select2.aspx.resx"
+                    DependentUpon = "ds_select2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_select3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_select3.aspx.cs"
+                    DependentUpon = "ds_select3.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_select3.aspx.resx"
+                    DependentUpon = "ds_select3.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ds_update.aspx.cs"
+                    DependentUpon = "ds_update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ds_update.aspx.resx"
+                    DependentUpon = "ds_update.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dsCategories.cs"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dsCategories.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "dsCategories.xsx"
+                    DependentUpon = "dsCategories.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "sp_insert.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "sp_insert.aspx.cs"
+                    DependentUpon = "sp_insert.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "sp_insert.aspx.resx"
+                    DependentUpon = "sp_insert.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "sp_select.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "sp_select.aspx.cs"
+                    DependentUpon = "sp_select.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "sp_select.aspx.resx"
+                    DependentUpon = "sp_select.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.cs"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

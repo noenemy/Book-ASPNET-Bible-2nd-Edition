@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema id="dsRegion" targetNamespace="http://tempuri.org/dsRegion.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/dsRegion.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xsd:element name="dsRegion" msdata:IsDataSet="true">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="Region">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="RegionID" type="xsd:int" />
+							<xsd:element name="RegionDescription" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+		<xsd:unique name="dsRegionKey1" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//Region" />
+			<xsd:field xpath="RegionID" />
+		</xsd:unique>
+	</xsd:element>
+</xsd:schema>

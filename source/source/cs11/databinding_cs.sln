@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "databinding_cs", "http://localhost/cs11/databinding_cs.csproj", "{1CB718E2-A82D-496F-8CC6-25735084C4BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1CB718E2-A82D-496F-8CC6-25735084C4BC}.Debug.ActiveCfg = Debug|.NET
+		{1CB718E2-A82D-496F-8CC6-25735084C4BC}.Debug.Build.0 = Debug|.NET
+		{1CB718E2-A82D-496F-8CC6-25735084C4BC}.Release.ActiveCfg = Release|.NET
+		{1CB718E2-A82D-496F-8CC6-25735084C4BC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

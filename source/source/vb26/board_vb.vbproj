@@ -1,0 +1,410 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{37243185-E91E-4627-AB52-DC0DB645BA6F}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "board_vb"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "board_vb"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "BizBoard"
+                    Project = "{8CBF5CFF-E438-4037-A285-25A2D07B677D}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "board_vb.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "delete.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "delete.aspx.vb"
+                    DependentUpon = "delete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "delete.aspx.resx"
+                    DependentUpon = "delete.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "download.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "download.aspx.vb"
+                    DependentUpon = "download.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "download.aspx.resx"
+                    DependentUpon = "download.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "edit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "edit.aspx.vb"
+                    DependentUpon = "edit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "edit.aspx.resx"
+                    DependentUpon = "edit.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "list.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "list.aspx.vb"
+                    DependentUpon = "list.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "list.aspx.resx"
+                    DependentUpon = "list.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "reply.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "reply.aspx.vb"
+                    DependentUpon = "reply.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "reply.aspx.resx"
+                    DependentUpon = "reply.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "show.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "show.aspx.vb"
+                    DependentUpon = "show.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "show.aspx.resx"
+                    DependentUpon = "show.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "write.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "write.aspx.vb"
+                    DependentUpon = "write.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "write.aspx.resx"
+                    DependentUpon = "write.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\admin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\back.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\flopy.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_admin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\lens.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\list.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\next.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ok.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\previous.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\re.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\reference.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\reply.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\search_cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\title.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\warning.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\write.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\bmp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\com.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\compressed.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\doc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\etc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\exe.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\gif.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\htm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\html.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\hwp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\image.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\jpg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\mp3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\mpg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\ra.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\rar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\txt.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\wav.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\xls.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\zip.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

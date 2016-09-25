@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<addressbook>
+	<member>
+		<name>안재우</name>
+		<email>lancers@dotnetxpert.com</email>
+		<phone>010-123-4567</phone>
+	</member>
+	<member>
+		<name>이동범</name>
+		<email>funnyfox@dotnetxpert.com</email>
+		<phone>099-098-1298</phone>
+	</member>
+	<member>
+		<name>김유철</name>
+		<email>nettalk@dotnetxpert.com</email>
+		<phone>080-111-2222</phone>
+	</member>
+	<member>
+		<name>김현승</name>
+		<email>puzzle@dotnetxpert.com</email>
+		<phone>098-765-5432</phone>
+	</member>
+	<member>
+		<name>김순근</name>
+		<email>noenemy@dotnetxpert.com</email>
+		<phone>075-234-1234</phone>
+	</member>
+</addressbook>

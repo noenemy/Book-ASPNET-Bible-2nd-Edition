@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </types>
+  <message name="HelloWorldSoapIn">
+    <part name="parameters" element="s0:HelloWorld" />
+  </message>
+  <message name="HelloWorldSoapOut">
+    <part name="parameters" element="s0:HelloWorldResponse" />
+  </message>
+  <message name="HelloWorldHttpGetIn" />
+  <message name="HelloWorldHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="HelloWorldHttpPostIn" />
+  <message name="HelloWorldHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <portType name="helloSoap">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldSoapIn" />
+      <output message="s0:HelloWorldSoapOut" />
+    </operation>
+  </portType>
+  <portType name="helloHttpGet">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldHttpGetIn" />
+      <output message="s0:HelloWorldHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="helloHttpPost">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldHttpPostIn" />
+      <output message="s0:HelloWorldHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="helloSoap" type="s0:helloSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="helloHttpGet" type="s0:helloHttpGet">
+    <http:binding verb="GET" />
+    <operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="helloHttpPost" type="s0:helloHttpPost">
+    <http:binding verb="POST" />
+    <operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="hello">
+    <port name="helloSoap" binding="s0:helloSoap">
+      <soap:address location="http://localhost/cs19/hello.asmx" />
+    </port>
+    <port name="helloHttpGet" binding="s0:helloHttpGet">
+      <http:address location="http://localhost/cs19/hello.asmx" />
+    </port>
+    <port name="helloHttpPost" binding="s0:helloHttpPost">
+      <http:address location="http://localhost/cs19/hello.asmx" />
+    </port>
+  </service>
+</definitions>

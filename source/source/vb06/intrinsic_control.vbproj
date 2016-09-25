@@ -1,0 +1,321 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.0.9372"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{3A1D39B4-20B1-4D59-A3C7-7CFF28A2B3C5}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "intrinsic_control"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "intrinsic_control"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "address.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "address.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "button.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "button.aspx.vb"
+                    DependentUpon = "button.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "button.aspx.resx"
+                    DependentUpon = "button.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "checkbox.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "checkbox.aspx.vb"
+                    DependentUpon = "checkbox.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "checkbox.aspx.resx"
+                    DependentUpon = "checkbox.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "hyperlink.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "hyperlink.aspx.vb"
+                    DependentUpon = "hyperlink.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "hyperlink.aspx.resx"
+                    DependentUpon = "hyperlink.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "image.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image.aspx.vb"
+                    DependentUpon = "image.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "image.aspx.resx"
+                    DependentUpon = "image.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "intrinsic_control.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "label.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "label.aspx.vb"
+                    DependentUpon = "label.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "label.aspx.resx"
+                    DependentUpon = "label.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "literal.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "literal.aspx.vb"
+                    DependentUpon = "literal.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "literal.aspx.resx"
+                    DependentUpon = "literal.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "panel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "panel.aspx.vb"
+                    DependentUpon = "panel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "panel.aspx.resx"
+                    DependentUpon = "panel.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "radiobutton.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "radiobutton.aspx.vb"
+                    DependentUpon = "radiobutton.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "radiobutton.aspx.resx"
+                    DependentUpon = "radiobutton.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "table.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "table.aspx.vb"
+                    DependentUpon = "table.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "table.aspx.resx"
+                    DependentUpon = "table.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "textbox.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "textbox.aspx.vb"
+                    DependentUpon = "textbox.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "textbox.aspx.resx"
+                    DependentUpon = "textbox.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xml.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xml.aspx.vb"
+                    DependentUpon = "xml.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "xml.aspx.resx"
+                    DependentUpon = "xml.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\¿¹Á¦.eml"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\logo_xpert.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\next.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\top_banner.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hellocsharp", "http://localhost/cs03/hellocsharp.csproj", "{16C6FC23-1EAB-4F93-81F3-CB02033CAC4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{16C6FC23-1EAB-4F93-81F3-CB02033CAC4D}.Debug.ActiveCfg = Debug|.NET
+		{16C6FC23-1EAB-4F93-81F3-CB02033CAC4D}.Debug.Build.0 = Debug|.NET
+		{16C6FC23-1EAB-4F93-81F3-CB02033CAC4D}.Release.ActiveCfg = Release|.NET
+		{16C6FC23-1EAB-4F93-81F3-CB02033CAC4D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

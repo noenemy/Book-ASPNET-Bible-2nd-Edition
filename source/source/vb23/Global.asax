@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.vb" Inherits="guestbook_vb.Global" %>

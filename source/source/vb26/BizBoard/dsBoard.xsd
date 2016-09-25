@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsBoard" targetNamespace="http://tempuri.org/dsBoard.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsBoard.xsd" xmlns:mstns="http://tempuri.org/dsBoard.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsBoard" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="boardcontent">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="b_id" type="xs:string" />
+							<xs:element name="c_id" type="xs:int" />
+							<xs:element name="c_step" type="xs:int" />
+							<xs:element name="content" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="boardmaster">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="b_id" type="xs:string" />
+							<xs:element name="title" type="xs:string" />
+							<xs:element name="pagesize" type="xs:int" />
+							<xs:element name="adminpw" type="xs:string" />
+							<xs:element name="readonly" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="boardlist">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="b_id" type="xs:string" />
+							<xs:element name="c_id" type="xs:int" />
+							<xs:element name="c_step" type="xs:int" />
+							<xs:element name="c_depth" type="xs:int" />
+							<xs:element name="regdate" type="xs:dateTime" />
+							<xs:element name="subject" type="xs:string" minOccurs="0" />
+							<xs:element name="writer" type="xs:string" />
+							<xs:element name="email" type="xs:string" minOccurs="0" />
+							<xs:element name="readcount" type="xs:int" />
+							<xs:element name="downcount" type="xs:int" />
+							<xs:element name="filename" type="xs:string" minOccurs="0" />
+							<xs:element name="filesize" type="xs:string" minOccurs="0" />
+							<xs:element name="password" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetArticle">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="b_id" type="xs:string" />
+							<xs:element name="c_id" type="xs:int" />
+							<xs:element name="c_step" type="xs:int" />
+							<xs:element name="c_depth" type="xs:int" />
+							<xs:element name="regdate" type="xs:dateTime" />
+							<xs:element name="subject" type="xs:string" minOccurs="0" />
+							<xs:element name="writer" type="xs:string" />
+							<xs:element name="email" type="xs:string" minOccurs="0" />
+							<xs:element name="readcount" type="xs:int" />
+							<xs:element name="downcount" type="xs:int" />
+							<xs:element name="filename" type="xs:string" minOccurs="0" />
+							<xs:element name="filesize" type="xs:string" minOccurs="0" />
+							<xs:element name="password" type="xs:string" />
+							<xs:element name="content" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsBoardKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:boardcontent" />
+			<xs:field xpath="mstns:b_id" />
+			<xs:field xpath="mstns:c_id" />
+			<xs:field xpath="mstns:c_step" />
+		</xs:unique>
+		<xs:unique name="dsBoardKey3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:boardmaster" />
+			<xs:field xpath="mstns:b_id" />
+		</xs:unique>
+		<xs:unique name="dsBoardKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:boardlist" />
+			<xs:field xpath="mstns:b_id" />
+			<xs:field xpath="mstns:c_id" />
+			<xs:field xpath="mstns:c_step" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

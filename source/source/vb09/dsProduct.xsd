@@ -1,0 +1,25 @@
+<xsd:schema id="dsProduct" targetNamespace="http://www.tempuri.org/dsProduct.xsd" xmlns="http://www.tempuri.org/dsProduct.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xsd:element name="dsProduct" msdata:IsDataSet="true" msdata:Locale="ko-KR">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="product">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Id" type="xsd:int" />
+              <xsd:element name="product_name" type="xsd:string" />
+              <xsd:element name="vender" type="xsd:string" />
+              <xsd:element name="description" type="xsd:string" minOccurs="0" />
+              <xsd:element name="spec" type="xsd:string" minOccurs="0" />
+              <xsd:element name="price" type="xsd:decimal" />
+              <xsd:element name="image" type="xsd:string" minOccurs="0" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+    <xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xsd:selector xpath=".//product" />
+      <xsd:field xpath="Id" />
+    </xsd:unique>
+  </xsd:element>
+</xsd:schema>

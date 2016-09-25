@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>images/banner_noenemy.gif</ImageUrl>
+		<NavigateUrl>http://www.noenemy.net/</NavigateUrl>
+		<AlternateText>놀래미닷넷</AlternateText>
+		<Keyword>ASP.NET</Keyword>
+		<Impressions>20</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/banner_taeyo.gif</ImageUrl>
+		<NavigateUrl>http://www.taeyo.pe.kr/</NavigateUrl>
+		<AlternateText>Taeyo's ASP</AlternateText>
+		<Keyword>ASP</Keyword>
+		<Impressions>20</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/banner_ageofstone.gif</ImageUrl>
+		<NavigateUrl>http://www.ageofstone.pe.kr/</NavigateUrl>
+		<AlternateText>AgeOfStone</AlternateText>
+		<Keyword>ASP</Keyword>
+		<Impressions>20</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/banner_weblove.gif</ImageUrl>
+		<NavigateUrl>http://weblove.okbari.net/</NavigateUrl>
+		<AlternateText>별아해의 웹러브</AlternateText>
+		<Keyword>ASP</Keyword>
+		<Impressions>20</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/banner_konan.gif</ImageUrl>
+		<NavigateUrl>http://www.sqler.pe.kr/</NavigateUrl>
+		<AlternateText>Happy Konan's SQLER</AlternateText>
+		<Keyword>SQL</Keyword>
+		<Impressions>20</Impressions>
+	</Ad>
+</Advertisements>

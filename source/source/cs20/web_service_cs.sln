@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_service_cs", "http://localhost/cs19/web_service_cs.csproj", "{EBC4F804-5E01-466A-AB02-0E5211871F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "win_use_webservice_cs", "win_use_webservice_cs\win_use_webservice_cs.csproj", "{B49F39B1-3D0A-499D-9E42-CDFA0FDDD8D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "use_webservice_cs", "http://localhost/cs19_2/use_webservice_cs.csproj", "{E9E1D3A6-E4B0-415D-AB0F-1644FAF810D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EBC4F804-5E01-466A-AB02-0E5211871F78}.Debug.ActiveCfg = Debug|.NET
+		{EBC4F804-5E01-466A-AB02-0E5211871F78}.Debug.Build.0 = Debug|.NET
+		{EBC4F804-5E01-466A-AB02-0E5211871F78}.Release.ActiveCfg = Release|.NET
+		{EBC4F804-5E01-466A-AB02-0E5211871F78}.Release.Build.0 = Release|.NET
+		{B49F39B1-3D0A-499D-9E42-CDFA0FDDD8D0}.Debug.ActiveCfg = Debug|.NET
+		{B49F39B1-3D0A-499D-9E42-CDFA0FDDD8D0}.Debug.Build.0 = Debug|.NET
+		{B49F39B1-3D0A-499D-9E42-CDFA0FDDD8D0}.Release.ActiveCfg = Release|.NET
+		{B49F39B1-3D0A-499D-9E42-CDFA0FDDD8D0}.Release.Build.0 = Release|.NET
+		{E9E1D3A6-E4B0-415D-AB0F-1644FAF810D5}.Debug.ActiveCfg = Debug|.NET
+		{E9E1D3A6-E4B0-415D-AB0F-1644FAF810D5}.Debug.Build.0 = Debug|.NET
+		{E9E1D3A6-E4B0-415D-AB0F-1644FAF810D5}.Release.ActiveCfg = Release|.NET
+		{E9E1D3A6-E4B0-415D-AB0F-1644FAF810D5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

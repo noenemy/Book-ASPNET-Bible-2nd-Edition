@@ -1,0 +1,8 @@
+<!--이 파일은 XML 스키마 디자이너에 의해 자동 생성되었습니다. 이 파일에는 디자이너 화면의 구성 요소에 대한 레이아웃 정보가 저장됩니다.-->
+<XSDDesignerLayout layoutVersion="1" viewPortLeft="0" viewPortTop="0">
+    <Categories_XmlElement left="9075" top="2990" width="5292" height="2963" selected="0" zOrder="2" index="0">
+        <Picture_XmlElement left="9075" top="7223" width="5292" height="714" selected="0" zOrder="3" index="3">
+            <명명되지_x0020_않은_x0020_simpleType입니다._XmlSimpleType left="9075" top="9207" width="5292" height="2963" selected="0" zOrder="6" index="0" />
+        </Picture_XmlElement>
+    </Categories_XmlElement>
+</XSDDesignerLayout>

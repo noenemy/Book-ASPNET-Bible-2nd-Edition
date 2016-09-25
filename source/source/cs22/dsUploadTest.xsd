@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsUploadTest" targetNamespace="http://www.tempuri.org/dsUploadTest.xsd" xmlns:mstns="http://www.tempuri.org/dsUploadTest.xsd" xmlns="http://www.tempuri.org/dsUploadTest.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsUploadTest" msdata:IsDataSet="true" msdata:Locale="ko-KR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="upload_test">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="filename" type="xs:string" />
+              <xs:element name="file_size" type="xs:int" />
+              <xs:element name="content_type" type="xs:string" />
+              <xs:element name="content" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:upload_test" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

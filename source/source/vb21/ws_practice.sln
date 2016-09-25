@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ws_practice", "http://localhost/vb20/ws_practice.vbproj", "{B6B4FA72-A6CF-4DA1-AD4D-16D3EA9C736F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wa_practice", "http://localhost/vb20_2/wa_practice.vbproj", "{5887DAC9-AB06-47BF-A198-835C0E31BB8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B6B4FA72-A6CF-4DA1-AD4D-16D3EA9C736F}.Debug.ActiveCfg = Debug|.NET
+		{B6B4FA72-A6CF-4DA1-AD4D-16D3EA9C736F}.Debug.Build.0 = Debug|.NET
+		{B6B4FA72-A6CF-4DA1-AD4D-16D3EA9C736F}.Release.ActiveCfg = Release|.NET
+		{B6B4FA72-A6CF-4DA1-AD4D-16D3EA9C736F}.Release.Build.0 = Release|.NET
+		{5887DAC9-AB06-47BF-A198-835C0E31BB8B}.Debug.ActiveCfg = Debug|.NET
+		{5887DAC9-AB06-47BF-A198-835C0E31BB8B}.Debug.Build.0 = Debug|.NET
+		{5887DAC9-AB06-47BF-A198-835C0E31BB8B}.Release.ActiveCfg = Release|.NET
+		{5887DAC9-AB06-47BF-A198-835C0E31BB8B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

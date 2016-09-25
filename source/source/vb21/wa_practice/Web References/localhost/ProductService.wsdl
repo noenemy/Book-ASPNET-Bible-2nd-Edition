@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:i1="http://tempuri.org/dsProducts.xsd" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:i0="http://tempuri.org/dsCategories.xsd" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <import namespace="http://tempuri.org/dsCategories.xsd" location="http://localhost/vb20/ProductService.asmx?schema=dsCategories" />
+  <import namespace="http://tempuri.org/dsProducts.xsd" location="http://localhost/vb20/ProductService.asmx?schema=dsProducts" />
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://tempuri.org/dsCategories.xsd" />
+      <s:import namespace="http://tempuri.org/dsProducts.xsd" />
+      <s:element name="GetCategories">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCategoriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCategoriesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://tempuri.org/dsCategories.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsByCategoryID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CategoryID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsByCategoryIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductsByCategoryIDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://tempuri.org/dsProducts.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsCategories" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any namespace="http://tempuri.org/dsCategories.xsd" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dsProducts" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any namespace="http://tempuri.org/dsProducts.xsd" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetCategoriesSoapIn">
+    <part name="parameters" element="s0:GetCategories" />
+  </message>
+  <message name="GetCategoriesSoapOut">
+    <part name="parameters" element="s0:GetCategoriesResponse" />
+  </message>
+  <message name="GetProductsByCategoryIDSoapIn">
+    <part name="parameters" element="s0:GetProductsByCategoryID" />
+  </message>
+  <message name="GetProductsByCategoryIDSoapOut">
+    <part name="parameters" element="s0:GetProductsByCategoryIDResponse" />
+  </message>
+  <message name="GetCategoriesHttpGetIn" />
+  <message name="GetCategoriesHttpGetOut">
+    <part name="Body" element="s0:dsCategories" />
+  </message>
+  <message name="GetProductsByCategoryIDHttpGetIn">
+    <part name="CategoryID" type="s:string" />
+  </message>
+  <message name="GetProductsByCategoryIDHttpGetOut">
+    <part name="Body" element="s0:dsProducts" />
+  </message>
+  <message name="GetCategoriesHttpPostIn" />
+  <message name="GetCategoriesHttpPostOut">
+    <part name="Body" element="s0:dsCategories" />
+  </message>
+  <message name="GetProductsByCategoryIDHttpPostIn">
+    <part name="CategoryID" type="s:string" />
+  </message>
+  <message name="GetProductsByCategoryIDHttpPostOut">
+    <part name="Body" element="s0:dsProducts" />
+  </message>
+  <portType name="ProductServiceSoap">
+    <operation name="GetCategories">
+      <documentation>Northwind의 Categories 테이블의 모든 레코드를 리턴합니다.</documentation>
+      <input message="s0:GetCategoriesSoapIn" />
+      <output message="s0:GetCategoriesSoapOut" />
+    </operation>
+    <operation name="GetProductsByCategoryID">
+      <input message="s0:GetProductsByCategoryIDSoapIn" />
+      <output message="s0:GetProductsByCategoryIDSoapOut" />
+    </operation>
+  </portType>
+  <portType name="ProductServiceHttpGet">
+    <operation name="GetCategories">
+      <documentation>Northwind의 Categories 테이블의 모든 레코드를 리턴합니다.</documentation>
+      <input message="s0:GetCategoriesHttpGetIn" />
+      <output message="s0:GetCategoriesHttpGetOut" />
+    </operation>
+    <operation name="GetProductsByCategoryID">
+      <input message="s0:GetProductsByCategoryIDHttpGetIn" />
+      <output message="s0:GetProductsByCategoryIDHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="ProductServiceHttpPost">
+    <operation name="GetCategories">
+      <documentation>Northwind의 Categories 테이블의 모든 레코드를 리턴합니다.</documentation>
+      <input message="s0:GetCategoriesHttpPostIn" />
+      <output message="s0:GetCategoriesHttpPostOut" />
+    </operation>
+    <operation name="GetProductsByCategoryID">
+      <input message="s0:GetProductsByCategoryIDHttpPostIn" />
+      <output message="s0:GetProductsByCategoryIDHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="ProductServiceSoap" type="s0:ProductServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetCategories">
+      <soap:operation soapAction="http://tempuri.org/GetCategories" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetProductsByCategoryID">
+      <soap:operation soapAction="http://tempuri.org/GetProductsByCategoryID" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ProductServiceHttpGet" type="s0:ProductServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="GetCategories">
+      <http:operation location="/GetCategories" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetProductsByCategoryID">
+      <http:operation location="/GetProductsByCategoryID" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ProductServiceHttpPost" type="s0:ProductServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="GetCategories">
+      <http:operation location="/GetCategories" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetProductsByCategoryID">
+      <http:operation location="/GetProductsByCategoryID" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ProductService">
+    <port name="ProductServiceSoap" binding="s0:ProductServiceSoap">
+      <soap:address location="http://localhost/vb20/ProductService.asmx" />
+    </port>
+    <port name="ProductServiceHttpGet" binding="s0:ProductServiceHttpGet">
+      <http:address location="http://localhost/vb20/ProductService.asmx" />
+    </port>
+    <port name="ProductServiceHttpPost" binding="s0:ProductServiceHttpPost">
+      <http:address location="http://localhost/vb20/ProductService.asmx" />
+    </port>
+  </service>
+</definitions>

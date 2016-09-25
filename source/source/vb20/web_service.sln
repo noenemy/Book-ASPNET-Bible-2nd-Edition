@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "web_service", "http://localhost/vb19/web_service.vbproj", "{3E246D42-9582-419F-AC33-7A6EBC5E7A84}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "win_use_webservice", "win_use_webservice\win_use_webservice.vbproj", "{AD5060FE-E388-46AC-91BB-49F2C17CECBB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "use_webservice", "http://localhost/vb19_2/use_webservice.vbproj", "{23D93C55-232C-4102-BAD9-646F12758FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3E246D42-9582-419F-AC33-7A6EBC5E7A84}.Debug.ActiveCfg = Debug|.NET
+		{3E246D42-9582-419F-AC33-7A6EBC5E7A84}.Debug.Build.0 = Debug|.NET
+		{3E246D42-9582-419F-AC33-7A6EBC5E7A84}.Release.ActiveCfg = Release|.NET
+		{3E246D42-9582-419F-AC33-7A6EBC5E7A84}.Release.Build.0 = Release|.NET
+		{AD5060FE-E388-46AC-91BB-49F2C17CECBB}.Debug.ActiveCfg = Debug|.NET
+		{AD5060FE-E388-46AC-91BB-49F2C17CECBB}.Debug.Build.0 = Debug|.NET
+		{AD5060FE-E388-46AC-91BB-49F2C17CECBB}.Release.ActiveCfg = Release|.NET
+		{AD5060FE-E388-46AC-91BB-49F2C17CECBB}.Release.Build.0 = Release|.NET
+		{23D93C55-232C-4102-BAD9-646F12758FCF}.Debug.ActiveCfg = Debug|.NET
+		{23D93C55-232C-4102-BAD9-646F12758FCF}.Debug.Build.0 = Debug|.NET
+		{23D93C55-232C-4102-BAD9-646F12758FCF}.Release.ActiveCfg = Release|.NET
+		{23D93C55-232C-4102-BAD9-646F12758FCF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

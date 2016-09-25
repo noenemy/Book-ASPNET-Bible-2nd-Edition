@@ -1,0 +1,9 @@
+A:link {color:#454545;text-decoration:none;}
+A:visited {color:#454545;text-decoration:none;}
+A:active {color:#454545;text-decoration:underline;}
+A:hover {color:#454545;text-decoration:underline;}
+.ver8 {color:#000000;font-size:8pt}
+.ver9 {color:#000000;font-size:9pt}
+p,br,body,select,input,form,textarea,option {font-size:9pt;font-family:±¼¸²;}
+td {color:#000000;font-size:9pt;font-family:±¼¸²;}
+.cont{line-height:140%}

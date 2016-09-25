@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "webdisk_vb", "http://localhost/vb23/webdisk_vb.vbproj", "{866E4F5C-3B24-4EA9-A6B9-CA60AEC3294B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{866E4F5C-3B24-4EA9-A6B9-CA60AEC3294B}.Debug.ActiveCfg = Debug|.NET
+		{866E4F5C-3B24-4EA9-A6B9-CA60AEC3294B}.Debug.Build.0 = Debug|.NET
+		{866E4F5C-3B24-4EA9-A6B9-CA60AEC3294B}.Release.ActiveCfg = Release|.NET
+		{866E4F5C-3B24-4EA9-A6B9-CA60AEC3294B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

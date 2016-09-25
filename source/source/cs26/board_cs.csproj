@@ -1,0 +1,426 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{E49B9157-097C-44C1-80FC-94FE01BD0354}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "board_cs"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "board_cs"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.EnterpriseServices"
+                    AssemblyName = "System.EnterpriseServices"
+                />
+                <Reference
+                    Name = "BizBoard"
+                    Project = "{D427BEFD-13B4-46D4-895A-5C7897BCF2DD}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "board_cs.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "delete.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "delete.aspx.cs"
+                    DependentUpon = "delete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "delete.aspx.resx"
+                    DependentUpon = "delete.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "download.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "download.aspx.cs"
+                    DependentUpon = "download.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "download.aspx.resx"
+                    DependentUpon = "download.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "edit.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "edit.aspx.cs"
+                    DependentUpon = "edit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "edit.aspx.resx"
+                    DependentUpon = "edit.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "list.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "list.aspx.cs"
+                    DependentUpon = "list.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "list.aspx.resx"
+                    DependentUpon = "list.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "reply.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "reply.aspx.cs"
+                    DependentUpon = "reply.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "reply.aspx.resx"
+                    DependentUpon = "reply.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "show.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "show.aspx.cs"
+                    DependentUpon = "show.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "show.aspx.resx"
+                    DependentUpon = "show.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.cs"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "write.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "write.aspx.cs"
+                    DependentUpon = "write.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "write.aspx.resx"
+                    DependentUpon = "write.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\admin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\back.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\flopy.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_admin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\lens.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\list.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\next.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ok.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\previous.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\re.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\reference.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\reply.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\search_cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\title.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\warning.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\write.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\bmp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\com.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\compressed.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\doc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\etc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\exe.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\gif.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\htm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\html.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\hwp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\image.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\jpg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\mp3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\mpg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\ra.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\rar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\txt.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\wav.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\xls.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\pds\zip.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
