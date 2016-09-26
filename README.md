@@ -1,49 +1,49 @@
-#Book-ASPNET-Bible-2nd-Edition
+# Book-ASPNET-Bible-2nd-Edition
 Code samples for "ASP.NET Bible 2nd Edition" which was published in 2003.
 You can see the details from http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=443345
 
-#Table of Contents
+# Table of Contents
 
-###Part 1 .NET? ASP.NET!
-<li>1 .NET framework</li>
-<li>2 ASP to ASP.NET</li>
+### Part 1 .NET? ASP.NET!
+* 1 .NET framework
+* 2 ASP to ASP.NET
 
-###Part 2 ASP.NET Pages
-<li>3 Hello ASP.NET</li>
-<li>4 Web Form</li>	
-<li>5 HTML Controls</li>
-<li>6 Intrinsic Controls</li>
-<li>7 Validation Controls</li>
-<li>8 List Controls Pt.1</li>
-<li>9 List Controls Pt.2</li>
-<li>10 Rich Controls</li>
-<li>11 Data Binding</li>
-<li>12 Custom Controls</li>
+### Part 2 ASP.NET Pages
+* 3 Hello ASP.NET
+* 4 Web Form
+* 5 HTML Controls
+* 6 Intrinsic Controls
+* 7 Validation Controls
+* 8 List Controls Pt.1
+* 9 List Controls Pt.2
+* 10 Rich Controls
+* 11 Data Binding
+* 12 Custom Controls
 
-###Part 3 ADO.NET 
-<li>13 ADO.NET Objects</li>
-<li>14 ADO.NET Case by Case	</li>
+### Part 3 ADO.NET 
+* 13 ADO.NET Objects
+* 14 ADO.NET Case by Case
 
-###Part 4 Infrastructure
-<li>15 Web Application</li>
-<li>16 IIS 6.0 and ASP.NET	</li>
-<li>17 State Management	</li>
-<li>18 Configuration	</li>
-<li>19 Security	</li>
+### Part 4 Infrastructure
+* 15 Web Application
+* 16 IIS 6.0 and ASP.NET
+* 17 State Management
+* 18 Configuration
+* 19 Security
 
-###Part 5 Web Service
-<li>20 Web Service Overview	</li>
-<li>21 My First Web Service</li>
+### Part 5 Web Service
+* 20 Web Service Overview
+* 21 My First Web Service
 
-###Part 6 Useful Practices
-<li>22 Tip & Tech	</li>
-<li>23 Guestbook</li>
-<li>24 Web Disk</li>
-<li>25 Web Mail</li>
-<li>26 Bulletin Board with COM+</li>
+### Part 6 Useful Practices
+* 22 Tip & Tech
+* 23 Guestbook
+* 24 Web Disk
+* 25 Web Mail
+* 26 Bulletin Board with COM+
 
-###Appendix
-<li>1 Visual Studio .NET 2003</li>
-<li>2 Object Oriendted Programming</li>
+### Appendix
+* 1 Visual Studio .NET 2003
+* 2 Object Oriendted Programming
 
 
