@@ -1,5 +1,5 @@
 # Book-ASPNET-Bible-2nd-Edition
-Code samples for "ASP.NET Bible 2nd Edition" which was published in 2003.
+Code samples for my publication "ASP.NET Bible 2nd Edition" which was published in 2003.
 You can see the details from http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=443345
 
 ![Cover Image](http://image3.kangcom.com/2003/11/b_pic/200311200006.jpg?raw=true "ASP.NET Programming Bible 2nd Edition")
@@ -48,4 +48,5 @@ You can see the details from http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=4
 * 1 Visual Studio .NET 2003
 * 2 Object Oriendted Programming
 
-
+# License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
